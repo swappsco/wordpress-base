@@ -1,0 +1,37 @@
+
+# ignore all files starting with .
+.*
+
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# ignore all files that start with ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore everything in the "wp-content" directory, except:
+# "plugins" directory
+# "themes" directory
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+/vendor/
