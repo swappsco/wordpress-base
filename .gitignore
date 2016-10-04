@@ -1,9 +1,8 @@
+# ignore all files starting with .env
+.env
 
-# ignore all files starting with .
-.*
-
-# track this file .gitignore (i.e. do NOT ignore it)
-!.gitignore
+# track this file .gitkeep (i.e. do NOT ignore it)
+!.gitkeep
 
 # ignore all files that start with ~
 ~*
@@ -16,7 +15,7 @@ Thumbs.db
 *.log
 *.sql
 *.sqlite
-
+`
 # ignore packaged files
 *.7z
 *.dmg
@@ -33,4 +32,3 @@ Thumbs.db
 wp-content/*
 
 /vendor/
-
