@@ -1,5 +1,13 @@
 {
-  "require": {
-    "vlucas/phpdotenv": "2.0.*"
-  }
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+    "vlucas/phpdotenv": "2.0.*",
+    "wpackagist-plugin/amazon-web-services": "1.0",
+    "wpackagist-plugin/amazon-s3-and-cloudfront": "1.1"
+    }
 }
