@@ -15,7 +15,7 @@ Thumbs.db
 *.log
 *.sql
 *.sqlite
-`
+
 # ignore packaged files
 *.7z
 *.dmg
@@ -29,6 +29,8 @@ Thumbs.db
 # ignore everything in the "wp-content" directory, except:
 # "plugins" directory
 # "themes" directory
-wp-content/*
+/wp-content/
 
 /vendor/
+
+!.gitkeep
