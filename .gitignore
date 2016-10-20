@@ -1,8 +1,8 @@
 # ignore all files starting with .env
 .env
 
-# track this file .gitkeep (i.e. do NOT ignore it)
-!.gitkeep
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
 
 # ignore all files that start with ~
 ~*

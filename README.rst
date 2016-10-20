@@ -1,5 +1,5 @@
 ==============
-Wordpress Base
+FacialArt
 ==============
 
 Wordpress project using wordpress-ansible and PHP Dot Env
@@ -18,7 +18,7 @@ Installation
 
 Clone the project ::
 
-    git@github.com:swappsco/wordpress-base.git
+    git@github.com:swappsco/wp-facialart.git
 
 Create a database ::
 
