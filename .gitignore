@@ -1,7 +1,7 @@
 
 # ignore all files starting with .
 .env
-
+.DS_Store
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
 
@@ -26,7 +26,7 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
-
+*.tgz
 # ignore everything in the "wp-content" directory, except:
 # "plugins" directory
 # "themes" directory
