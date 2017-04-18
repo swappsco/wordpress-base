@@ -84,6 +84,10 @@ define('WP_DEBUG', $wp_debug);
 define( 'DBI_AWS_ACCESS_KEY_ID', getenv('AWS_ACCESS_KEY_ID') );
 define( 'DBI_AWS_SECRET_ACCESS_KEY', getenv('AWS_SECRET_ACCESS_KEY'));
 
+define('SSL_ON', filter_var(getenv('SSL_ON'), FILTER_VALIDATE_BOOLEAN));
+if (SSL_ON == true) {
+	$_SERVER['HTTPS']='on';
+}
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
