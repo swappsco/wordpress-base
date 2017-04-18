@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3b732da84d6d4f1e61cd8fd7e08af433",
-    "content-hash": "edf6f8b19f0eb07ff47bee3463ba684b",
+    "hash": "7735445535e897441116d0496e9b44c8",
+    "content-hash": "eef0af1e741bb4c2b02d5df2433fb237",
     "packages": [
         {
             "name": "composer/installers",
@@ -171,7 +171,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.1.1.6.zip",
-                "reference": null,
+                "reference": "tags/1.1.6",
                 "shasum": null
             },
             "require": {
@@ -191,7 +191,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.2.zip",
-                "reference": null,
+                "reference": "tags/1.0.2",
                 "shasum": null
             },
             "require": {
@@ -211,7 +211,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/mailgun.1.5.8.2.zip",
-                "reference": null,
+                "reference": "tags/1.5.8.2",
                 "shasum": null
             },
             "require": {
@@ -219,6 +219,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mailgun/"
+        },
+        {
+            "name": "wpackagist-plugin/smtp-mailer",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/smtp-mailer/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/smtp-mailer.zip?timestamp=1489200470",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/smtp-mailer/"
         }
     ],
     "packages-dev": [],
